@@ -9,7 +9,7 @@ html {
 
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,600,800|Oxygen:300,400,700';
 *{margin:0;padding:0;border:0}header{background-color:#272b36;text-align:center;
-    background:url("assets/stocklaptop.jpg");
+    background:url("./stocklaptop.jpg");
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;color:#fff;

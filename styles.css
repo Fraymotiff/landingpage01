@@ -104,6 +104,7 @@ html {
                                     .footer-title h2{font-family:'Montserrat',sans-serif;font-weight:normal;font-size:18px;margin:0 0 2em 0}7
                 .footer-title span{font-family:'Oxygen',sans-serif;font-weight:normal;font-size:12px}
                 .footer-form-item{display:block;
+                place-self: center;
                     margin:1em 0;
                     max-width: 100%;
                 min-width: 100%;

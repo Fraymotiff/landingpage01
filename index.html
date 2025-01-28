@@ -121,15 +121,15 @@
         <form>
           <div class="footer-form-item">
             <label>Nome</label>
-            <input type="text" class="input-form" />
+            <input type="text" class="input-form" required=""/>
           </div>
           <div class="footer-form-item">
             <label>Email Corporativo</label>
-            <input type="Email" class="input-form" />
+            <input type="Email" class="input-form" required="email é obrigatório" />
           </div>
           <div class="footer-form-item">
             <label>Empresa</label>
-            <input type="text" class="input-form" />
+            <input type="text" class="input-form" required=""/>
           </div>
           <div class="footer-form-item">
             <label>Cargo</label>
@@ -162,17 +162,18 @@
             <label>Telefone</label>
             <div class="footer-form-phone">
               <select>
-                <option value="351" selected>54</option>
+                <option value="351" selected>54</option required >
                 <option value="57">+55</option>
                 <option value="123">+57</option>
                 <option value="123">+1</option>
               </select>
-              <input type="phone" id="inputtext"  class="phone" placeholder="Seu telefone aqui" />
+              <input type="tel" id="inputtext"  class="phone" placeholder="Seu telefone aqui" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+
             </div>
           </div>
           <div class="footer-form-item">
             <label>Conte-nos um pouco sobre sua proposta</label>
-            <textarea rows="4" placeholder=" Conte-nos um pouco sobre seu negócio" id="contenossobre" minlenght="80" ></textarea>
+            <textarea rows="4" placeholder=" Conte-nos um pouco sobre seu negócio" id="contenossobre" minlenght="80" required=""></textarea>
           </div>
           <div class="footer-form-button">
             <button id="btn">Entrar em contato</button>

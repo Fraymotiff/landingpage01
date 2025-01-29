@@ -156,7 +156,7 @@ html {
                 font-size: 20px;
             }
 
-            input[type=text] {
+            [type=text] {
                 resize: none;
                 width:300px;
                 height: 30px;
@@ -212,13 +212,13 @@ html {
                     margin-right: 30em;
                 width:100%;}
             }
-input:invalid {
+:invalid {
   border: 2px red;
 }
-input:invalid:required {
+:invalid:required {
   border: 2px red;
 }
 
-input:valid {
+:valid {
   border: 2px solid black;
 }

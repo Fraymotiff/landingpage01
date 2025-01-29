@@ -212,3 +212,6 @@ html {
 input:invalid {
   border: 2px red;
 }
+input:invalid:required {
+  border: 2px red;
+}

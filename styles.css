@@ -198,19 +198,12 @@ html {
                 background-color: var(--green);
                 
                 box-shadow: 5px 10px #888888;
-                width: 500px;
+                width: 600px;
                 border-radius: 5px;
                 display: flex;
                 margin: auto;
                 
         
-            }
-
-            @media only screen and (min-width:30em){
-
-                footer{padding:2em 0;
-                    margin-right: 30em;
-                width:100%;}
             }
 :invalid {
   border: 2px red;
@@ -220,5 +213,11 @@ html {
 }
 
 :valid {
-  border: 2px solid black;
+  border: 2px solid var(--blue);
 }
+            @media only screen and (min-width:30em){
+
+                footer{padding:2em 0;
+                    margin-right: 30em;
+                width:100%;}
+            }

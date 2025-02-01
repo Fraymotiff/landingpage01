@@ -96,46 +96,52 @@ html {
  footer{
  background-color:var(--blue);
    color:#fff;padding:1em;
-                                    }
-                                    
-                                    
-                                    
-                                    
-                                    #footer-container{display:grid;grid-template-columns:minmax(auto,350px);justify-content:center}
-                                    .footer-title{text-align:center;padding:0 0 1em 0;}
-                                    .footer-title h2{font-family:'Montserrat',sans-serif;font-weight:normal;font-size:18px;margin:0 0 2em 0}7
-                .footer-title span{font-family:'Oxygen',sans-serif;font-weight:normal;font-size:12px}
-                .footer-form-item{display:block;
-                place-self: center;
-                    margin:1em 0;
-                    max-width: 100%;
-                min-width: 100%;
-                
-                border-radius: 4px;
-                margin-left: 5em;
-              
-                }
-                .footer-form-button{text-align:center;padding:.5em 0 0 0}
-                .footer-form-phone{display:flex;justify-content:space-between;}
-                .footer-form-phone select{margin:0 .5em 0 0}
-                footer label{display:block;margin:0 0 .2em 0;font-family:'Oxygen',sans-serif;text-transform:uppercase;font-size:10px}
-                footer select,
-            
+   width: 100%;
+  }
+
+#footer-container{display:grid;grid-template-columns:minmax(auto,350px);justify-content:center}
+ .footer-title{text-align:center;padding:0 0 1em 0;}
+  .footer-title h2{font-family:'Montserrat',sans-serif;font-weight:normal;font-size:18px;margin:0 0 2em 0}7
+ .footer-title span{font-family:'Oxygen',sans-serif;font-weight:normal
+ font-size:12px} .footer-form-item{display:block;  place-self: center;
+ margin:1em 0;
+ max-width: 100%;
+  min-width: 100%;
+  
+  border-radius: 4px;
+  margin-left: 5em;
+  
+    }
+  .footer-form-button{
+    text-align:center;
+    padding:.5em 0 0 0}
+    
+  .footer-form-phone{
+    display:flex;
+    justify-content:space-between;}
+    
+ .footer-form-phone select{
+   margin:0 .5em 0 0}
+ 
+   footer label{
+     display:block;
+     margin:0 0 .2em 0;
+     font-family:'Oxygen',sans-serif;text-transform:uppercase;
+     font-size:10px}
+    footer select,  #btn{
+  background-color: var(--blue); 
+  color:#fff;
+  padding:12px 24px;
+  border-radius:6px;
+  outline:0;
+  color:white;
+  font-weight: 100;
+   font-family: "Montserrat", serif;
+    transition: 1s ease;
+font-weight: bold;
+ scroll-behavior: smooth;
 
 
-                #btn{
-                background-color: var(--blue); 
-                    color:#fff;padding:12px 24px;
-                    border-radius:6px;
-                    outline:0;
-                color:white;
-                font-weight: 100;
-                font-family: "Montserrat", serif;
-                transition: 1s ease;
-                font-weight: bold;
-                scroll-behavior: smooth;
-                
-        
             }
 
             #btn:hover{
@@ -219,5 +225,9 @@ html {
 
                 footer{padding:2em 0;
                     margin-right: 30em;
-                width:100%;}
+                  
+                }
+                .userbox{
+          
+                }
             }
